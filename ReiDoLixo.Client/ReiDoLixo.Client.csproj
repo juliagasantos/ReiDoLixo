@@ -17,4 +17,18 @@
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Components\Estoque\" />
+    <Folder Include="Components\Shared\" />
+    <Folder Include="Components\Produtos\" />
+    <Folder Include="Components\Pedidos\" />
+    <Folder Include="Models\" />
+    <Folder Include="Pages\Auth\" />
+    <Folder Include="Pages\Estoque\" />
+    <Folder Include="Pages\NovaPasta\" />
+    <Folder Include="Pages\Pedidos\" />
+    <Folder Include="Pages\Produtos\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
